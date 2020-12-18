@@ -17,7 +17,7 @@ import numpy as np
 
 st.title('End Users Script')
 #added this from lap2
-
+#added from my lap1
 def main():
     st.sidebar.title("What to do")
     app_mode = st.sidebar.selectbox("Choose the app mode",["Endusers Identification", "Show instructions"])
