@@ -13,7 +13,9 @@ import base64
 import spacy
 import numpy as np
 import spacy_streamlit
+import test
 
+st.title(test.test_print(4))
 
 st.title('Named Entity Recognition')
 #added this from lap2
