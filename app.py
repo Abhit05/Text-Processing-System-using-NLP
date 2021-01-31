@@ -15,7 +15,7 @@ import numpy as np
 import spacy_streamlit
 import test
 
-st.title(test.test_print(4))
+#st.title(test.test_print(18))
 
 st.title('Named Entity Recognition')
 #added this from lap2
