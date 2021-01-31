@@ -17,7 +17,7 @@ import test
 
 #st.title(test.test_print(18))
 
-st.title('Named Entity Recognition')
+st.title('Text Processing System')
 #added this from lap2
 #added from my lap1
 def main():
@@ -37,35 +37,6 @@ def main():
                 st.write(Output)
         else:
             st.markdown("> ** Click on Identify Entities Button to start the processing ** ")
-
-
-def test_code():
-    """def file_chooser_settings():
-        file_bytes = st.file_uploader("Upload a settings file", type=(""))
-        if file_bytes is not None:
-            with st.spinner('Wait for it...'):
-                data = pd.read_excel(file_bytes)
-                st.success('File uploaded succesful!!')
-            #st.write("File selected from Folder: ", os.path.abspath("../file_bytes"))
-            #st.write('You selected `%s`' % filename)
-        else:
-            data=pd.DataFrame()
-            #st.error('Unable to Load the selected file.Please choose another!!')
-        return data
-
-    def file_chooser_training():
-        file_bytes = st.file_uploader("Upload a Training file", type=(""))
-        if file_bytes is not None:
-            with st.spinner('Wait for it...'):
-                data = pd.read_excel(file_bytes)
-                st.success('File uploaded succesful!!')
-            #st.write("File selected from Folder: ", os.path.abspath("../file_bytes"))
-            #st.write('You selected `%s`' % filename)
-        else:
-            data=pd.DataFrame()
-            #st.error('Unable to Load the selected file.Please choose another!!')
-        return data"""
-
 
 
 def spacy_ner(text,model_name):
